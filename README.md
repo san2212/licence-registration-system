@@ -11,4 +11,4 @@
 <b>- How to run? </b>
 
 index.php file is the main executable page. <br>
-- <b>licence-registration-system/user_session/index.php</b>
+- <b>licence-registration-system/main/index.php</b>
