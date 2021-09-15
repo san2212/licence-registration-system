@@ -1,0 +1,112 @@
+#table
+{	
+	padding-left: 0px;
+	margin: 80px;
+	margin-top: 0px;
+	background-color: white;
+	box-shadow: 0px 0px 5px #888888;
+	background-color: #ebedef;
+	color: grey;
+	height: 800px;
+}
+table
+{	
+	padding: 5px 30px 30px 30px;
+	margin: 0 auto;
+	width: 100%;
+}
+#form_licence
+{
+	margin:0px;
+	padding: 10px;
+	color: white;
+	text-align: left;
+	font-size: 22px;
+	background-color: #34495e;
+}
+input[type="text"], input[type="number"], input[type="email"], input[type="date"]
+{
+	width: 100%; 
+	padding: 12px 20px; 
+	margin: 10px 0px; 
+	margin-right: 5px;
+	border: none;
+	box-sizing: border-box;
+	box-shadow: inset 1px 1px 2px #888888;
+    color: grey;
+	border-radius: 4px;
+}
+input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="date"]:focus
+{
+	 color: black;
+	 background-color: #ECF6FF;
+	 transition: 1s;
+}
+select
+{
+	
+	margin: 0px;
+	width: 100%;
+	padding: 10px 18px;
+	border: none;
+	box-sizing: border-box;
+	box-shadow: inset 1px 1px 2px #888888;
+}
+td
+{
+	padding: 5px;
+}
+p
+{
+	padding: 5px 0px 0px 0px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 6px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	color: grey;
+	margin: 0px;
+	border-radius: 6px;
+}
+.button
+{
+   background-color: #34495e;
+   color: white; 
+}
+
+.button:hover 
+{
+    background-color: #17202A;
+    color: white;
+}
+#optlayout
+{
+	padding-left:120px;
+	padding-right:120px;
+	padding-top:30px;
+	background-color: #4285f4;
+	height: 300px;
+}
+body
+{
+	font-family: "corbel";
+	background-color: #eeeeee;
+}
+#imagePreview
+{
+	box-shadow: inset 1px 1px 6px #888888;
+	background-color: white;
+}
+#imagePreview1
+{
+	box-shadow: inset 1px 1px 6px #888888;
+	background-color: white;
+}

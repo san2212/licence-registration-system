@@ -1,0 +1,69 @@
+#email
+{
+	font-family: "calibri";
+	color: white;
+	text-decoration: underline;
+}
+
+
+table
+{
+	width:60%;
+	
+	padding:60px;
+}
+td
+{
+	padding:30px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.alert3 {
+    padding: 20px;
+    background-color: grey;/* Red */
+    color: white;
+	font-size: 16px;
+    margin-bottom: 15px;
+	font-family: "calibri";
+}
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+#layout
+{
+	box-shadow: 0px 0px 4px #888888;
+	height: 600px;
+	margin-left:10%;
+	margin-right:10%;
+	padding: 30px;
+	background-color: white;
+}
+body
+{
+	background-color:#f4f4f4;
+}

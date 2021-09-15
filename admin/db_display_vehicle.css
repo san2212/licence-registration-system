@@ -1,0 +1,138 @@
+#left_nav
+{
+	float:left;
+	background-color:  white;
+	width:215px;
+	margin-top:15px;
+	margin-left:15px;
+	position: absolute;
+	box-shadow: 1px 1px 2px #888888;
+}
+
+#left_nav2
+{
+	float:left;
+	background-color:  white;
+	width:215px;
+	margin-top:65px;
+	margin-left:15px;
+	position: absolute;
+	box-shadow: 1px 1px 2px #888888;
+}
+#left_nav3
+{
+	float:left;
+	background-color:  white;
+	width:215px;
+	margin-top:115px;
+	margin-left:15px;
+	position: absolute;
+	box-shadow: 1px 1px 2px #888888;
+}
+#btn_02
+{
+	text-align:left;
+	width:100%;
+	background-color:white;
+	border:none;
+	padding:10px;
+}
+
+#btn_02:hover
+{
+	box-shadow: 2px 2px 4px #888888;
+	transition:0.5s;
+	cursor:pointer;
+}
+
+#db_table {
+    border-collapse: collapse;
+	width: 100%;
+	font-family: "calibri";
+}
+
+#dbtable_td{
+    border: 1px solid black;
+	height: 15px;
+	padding: 0px;
+    text-align: center;
+	border-bottom: 1px solid #ddd;
+	border-color : #ddd;
+}	
+
+th
+{	
+	height: 15px;
+	padding: 15px;
+    text-align: left;
+	border-color : none;
+	background-color: #2574AA;
+    color: white;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+#dbtable_tr:nth-child(even) {background-color: #E7E7E7}
+#dbtable_tr:nth-child(odd) {background-color: #D4D4D4}
+
+#go
+{
+    background-color: #2574AA;
+    border: none;
+    color: white;
+    padding: 4px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#search
+{
+    border: 1px solid #34495E;
+    color: #2574AA;
+    padding: 4px 32px;
+    text-decoration: none;
+    cursor: pointer;
+	width: 50px;
+}
+.
+{
+    border: 1px solid #34495E;
+    color: #2574AA;
+    padding: 4px 32px;
+    text-decoration: none;
+    cursor: pointer;
+	width: 120px;
+}
+#delete
+{
+    background-color: #2574AA;
+    border: none;
+    color: white;
+    padding: 4px 32px;
+    text-decoration: none;
+    cursor: pointer;
+	margin-left: 80px;
+	margin-bottom: 10px;
+	float: right;
+}
+#search:focus
+{
+	width: 100px;
+	transition: 0.5s;
+}
+#layout
+{
+	box-shadow: 0px 0px 8px #888888;
+	height: 600px;
+	margin-left:250px;
+	padding: 30px;
+	background-color: white;
+	overflow:scroll
+}
+body
+{
+	background-repeat: none;
+	background-color:#f4f4f4;
+}

@@ -1,0 +1,126 @@
+#table
+{	
+	padding-left: 0px;
+	margin: 60px;
+	margin-top: 0px;
+	background-color: white;
+	box-shadow: 0px 0px 5px #888888;
+	background-color: #F5F5F5;
+	color: grey;
+	height: 1100px;
+	border-radius: 4px;
+}
+.form_layout
+{
+	background-color: white;
+	font-family: "calibri light";
+	margin: 0px 50px 0px 380px;
+	box-shadow: 2px 2px 10px #888888;
+}
+table
+{	
+	padding: 5px 30px 30px 30px;
+	margin: 0 auto;
+	width: 100%;
+}
+#form_licence
+{
+	color: white;
+	text-align:left;
+	margin-left:60px;
+}
+#display
+{
+	background-color: #34495E;
+	color: white;
+	text-align: center;
+}
+input[type="text"], input[type="number"], input[type="email"]
+{
+	width: 100%; 
+	padding: 12px 20px; 
+	margin: 10px 0px; 
+	margin-right: 5px;
+	border: none;
+	box-sizing: border-box;
+	box-shadow: inset 1px 1px 2px #888888;
+    color: grey;
+	border-radius: 4px;
+}
+#textarea
+{
+	width: 100%; 
+	padding: 12px 20px; 
+	margin: 10px 0px; 
+	margin-right: 5px;
+	border: none;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 4px #888888;
+    color: grey;
+	border-radius: 4px;
+}
+input[type="text"]:focus, input[type="number"]:focus, input[type="email"]:focus
+{
+	 color: black;
+	 background-color: #ECF6FF;
+	 transition: 1s;
+}
+select
+{
+	margin: 0px;
+	width: 100%;
+	padding: 10px 18px;
+    box-sizing: border-box;
+}
+td
+{
+	padding: 5px;
+}
+#radio
+{
+	font-family: "calibri light";
+}
+.button {
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+	color: grey;
+	margin: 0px;
+	border-radius: 6px;
+}
+.button
+{
+   background-color: #4285f4; 
+   color: white; 
+}
+
+.button:hover 
+{
+    background-color: #17202A;
+    color: white;
+}
+#optlayout
+{
+	padding-left:120px;
+	padding-right:120px;
+	padding-top:30px;
+	background-color: #4285f4;
+	height: 300px;
+}
+body
+{
+	font-family: "corbel";
+	background-color: #eeeeee;
+}
+#imagePreview
+{
+	box-shadow: inset 1px 1px 6px #888888;
+	background-color: white;
+}

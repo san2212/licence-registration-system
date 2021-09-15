@@ -1,0 +1,83 @@
+form
+{
+	display : inline;
+}
+
+p
+{
+	padding: 20px 20px 20px 20px;
+	font-family : calibri; 
+	margin: 120px 500px 0px 350px;
+	background-color: white;
+    box-shadow: 0px 0px 8px #888888;
+	color: black;
+	width: 600px;
+	border-radius: 4px;
+	background-image: url("bg_index3.gif");
+	background-position: -300% 60%;
+	background-size: 600px;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #41AFF5;
+  border: none;
+  color: #FFFFFF;
+  text-align: justify;
+  width: 65px;
+  height: 40px;
+  cursor: pointer;
+  margin: 0px 0px 0px 535px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+input[type="text"], input[type="password"], input[type="email"] 
+{
+	width: 250px; 
+	padding: 12px 20px; 
+	margin: 10px 0px; 
+	margin-right: 5px;
+	margin-left: 350px;
+	border: none;
+	box-sizing: border-box;
+	background-color: #ECF6FF;
+	border-bottom: 2px solid #41AFF5;
+    color: grey;
+}
+input[type=text]:focus, input[type="password"]:focus, input[type="email"]:focus 
+{
+	 color: white;
+	 background-color: #41AFF5;
+	 transition: 1s;
+}
+
+.button:hover
+{
+	background-color: grey;
+}
+a
+{
+	text-align:center;
+	color: grey;
+}
+a:hover
+{
+	color: #5E92D5;
+	transition: 0.5s;
+}
+#err
+{
+	color: red;
+	margin-left: 350px;
+}
+body
+{
+		background-image: url("bg_login(2).png");
+		background-size: cover;
+}

@@ -1,0 +1,44 @@
+#header{
+		text-align: left-side;
+		color: white;
+		font-family: "courier new";
+		font-size:30px;
+		padding : 0px;
+		margin : 0px;		
+}
+#corner {
+    padding: 20px; 
+	margin : 0px;
+	height:80px;
+	background-color: #4285f4;
+}
+body
+{
+	margin: 0px;
+}
+#align
+{
+	float: right;
+}
+#table_head
+{
+	width:100%;
+}
+#head_nav
+{
+	border:none;
+	border-bottom: 1.5px solid white;
+	background-color: #4285f4;
+	color: white;
+	padding: 6px;
+	cursor: pointer;
+	text-decoration:none;
+	font-family: "corbel";
+	margin-left:10px;
+}
+#head_nav:hover
+{
+	background-color:white;
+	color: grey;
+	transition: 0.5s;
+}

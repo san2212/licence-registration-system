@@ -1,0 +1,90 @@
+form
+{
+	display : inline;
+}
+#bg
+{
+	padding: 10px 10px 10px 10px;
+	font-family : calibri; 
+	margin: 70px 500px 0px 350px;
+	background-color: white;
+    box-shadow: 0px 0px 8px #888888;
+	color: black;
+	width: 600px;
+	border-radius: 4px;
+}
+#bg2
+{
+	padding: 10px 10px 10px 10px;
+	font-family : calibri; 
+	margin: 130px 500px 0px 350px;
+	background-color: white;
+    box-shadow: 0px 0px 8px #888888;
+	color: black;
+	width: 600px;
+	height:350px;
+	border-radius: 4px;
+}
+#title
+{
+	font-size:20px;
+	text-align: center;
+	margin:0px;
+}
+#subtitle
+{
+	font-size:16px;
+	text-align: center;
+	margin:0px;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #41AFF5;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  width: 65px;
+  height: 40px;
+  cursor: pointer;
+  margin: 10px 0px 0px 410px;
+}
+#gif
+{
+	margin-left: 140px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button:hover
+{
+	background-color: grey;
+}
+input[type="text"], input[type="password"], input[type="email"] 
+{
+	width: 350px; 
+	padding: 20px; 
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-left: 130px;
+	border: none;
+	box-sizing: border-box;
+	background-color: #ECF6FF;
+	border-bottom: 2px solid #41AFF5;
+	font-size:20px;
+    color: grey;
+}
+input[type=text]:focus, input[type="password"]:focus, input[type="email"]:focus 
+{
+	 color: white;
+	 background-color: #41AFF5;
+	 transition: 1s;
+}
+body
+{
+		background-image: url("bg_login(2).png");
+		background-size: cover;
+}

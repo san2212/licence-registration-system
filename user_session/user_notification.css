@@ -1,0 +1,97 @@
+body
+{
+	font-family: "calibri";
+	background-color: #eeeeee;
+	margin:0px;
+}
+#notify
+{
+	margin: 20px 40px 0px 40px;
+	height: 300px; 
+	padding:20px;
+}
+#table
+{	
+	padding: 0px;
+	margin: 0px;
+	background-color: white;
+	box-shadow: 0px 0px 5px #888888;
+	height: 800px;
+}
+#optlayout
+{
+	padding-left:120px;
+	padding-right:120px;
+	padding-top:30px;
+	background-color: #4285f4;
+	height: 300px;
+}
+#form_head
+{
+	margin:0px;
+	padding: 10px;
+	color: white;
+	text-align:left;
+	font-size: 22px;
+	background-color:grey;
+}
+#image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+#above
+{ 
+   position: absolute; 
+   top: 320px; 
+   left: 460px; 
+   width: 100%; 
+}
+#notify_layout  
+{
+	margin-top: 0px;
+	box-shadow: inset 0px 0px 5px #888888;
+	padding: 10px;
+	color: #6D6D6D;
+}
+#notify_link
+{
+	color: white;
+}
+ /* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #16A085;/* Red */
+    color: white;
+	font-size: 16px;
+    margin-bottom: 15px;
+}
+.alert2 {
+    padding: 20px;
+    background-color: #F39C12;/* Red */
+    color: white;
+	font-size: 16px;
+    margin-bottom: 15px;
+}    
+.alert3 {
+    padding: 20px;
+    background-color: #A80AFD;/* Red */
+    color: white;
+	font-size: 16px;
+    margin-bottom: 15px;
+}
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}

@@ -1,0 +1,230 @@
+body
+{
+	margin-left : 90px;
+	margin-right: 90px;
+	margin-bottom:0px;
+}
+#content
+{
+	max-height:1500px;
+	background-color: white;
+}
+#social
+{
+	font-family: "Trebuchet MS";
+	color:grey;
+}
+
+#corner {
+    padding: 20px; 
+	height:80px;
+	background-color:  #f3f3f3;
+	box-shadow: 2px 2px 2px #888888;
+	border-radius:4px;
+}
+
+#header{
+	
+		text-align: left-side;
+		color: grey;
+		font-family: "Trebuchet MS";
+		font-size:30px;
+		padding : 0px;
+		margin : 0px;		
+}
+#head_nav
+{
+	float:right;
+	font-family: "corbel";
+	text-decoration:none;
+	color:black;
+	padding:10px;
+	background-color:white;
+	border-radius:4px;
+	margin-left:10px;
+	box-shadow: 1px 1px 1px #888888;
+}
+#head_nav:hover
+{
+	box-shadow: 2px 2px 4px #888888;
+	transition:0.5s;
+}
+#foot_nav
+{
+	float:left;
+	font-family: "corbel";
+	text-decoration:none;
+	color:black;
+	padding:5px;
+	background-color:white;
+	border-radius:4px;
+	box-shadow: 1px 1px 1px #888888;
+}
+#foot_nav:hover
+{
+	background-color:#f1f1f1;
+}
+#front
+{
+	margin-top:20px;
+	margin-left:10px;
+	float:left;
+	background-color:  #f3f3f3;
+	border-radius:4px;
+	width:300px;
+	height:200px;
+	cursor:pointer;
+}
+#front:hover
+{
+	background-color:#e1e1e1;
+	transition:0.2s;
+}
+#col0
+{
+	height:200px;
+	margin-top:20px;
+	margin-left:81%;
+	background-color:  #f3f3f3;
+	border-radius:4px;
+	box-shadow: 0px 0px 2px #888888;
+}
+#input
+{
+	width:80%;
+	border:none;
+	border-radius:4px;
+	box-shadow: inset 2px 2px 4px #888888;
+	padding:5px;
+	margin-left:10%;
+	margin-top:10px;
+}
+#inputerr
+{
+	width:80%;
+	border:none;
+	border-radius:4px;
+	box-shadow: inset 0px 0px 4px red;
+	padding:5px;
+	margin-left:10%;
+	margin-top:10px;
+}
+#err_txt
+{
+	font-size:14px;
+	font-family: "Trebuchet MS";
+	margin-left:10%;
+	color:red;
+}
+
+#login_btn
+{
+	float:right;
+	margin-top:10px;
+	margin-right:10%;
+	font-family: "corbel";
+	text-decoration:none;
+	color:black;
+	padding:5px;
+	background-color:white;
+	border:none;
+	border-radius:4px;
+	box-shadow: 1px 1px 4px grey;
+}
+#login_btn:hover
+{
+	box-shadow: 1px 1px 4px black;
+	transition:0.5s;
+}
+#col0_login
+{
+	font-family: "Trebuchet MS";
+	text-align:center;
+	font-size:20px;
+	color: grey;
+}
+#col1
+{
+	width:100%;
+	height:550px;
+	margin-top:10px;
+	background-position: center; 
+	background-size:cover;
+	background-color: #16a085; 
+	border-radius:4px;
+	background-image: url("traffic2.jpg");
+	background-attachment: fixed;
+}
+#col1_h
+{
+	padding-top:8%;
+	font-family: "Trebuchet MS";
+	text-align:center;
+	font-size:40px;
+	color: white;
+	text-shadow: 0px 0px 8px black;
+}
+#col1_sub
+{
+	margin-left:5%;
+	margin-right:5%;
+	font-family: "Trebuchet MS";
+	text-align:center;
+	font-size:20px;
+	color: white;
+	text-shadow: 0px 0px 8px black;
+}
+#hs
+{
+	margin-left:45%;
+	padding:5px;
+	color:white;
+	border: 2px solid white;
+	border-radius:6px;
+	background-color:transparent;
+	cursor:pointer;
+}
+#hs:hover
+{
+	background-color:white;
+	color:grey;
+	transition:0.2s;
+}
+#col2
+{
+	width:100%;
+	height:250px;
+	margin-top:10px;
+	background-color:  #34495e;
+	border-radius:4px;
+}
+#footer_h
+{
+	text-align: left; 
+	font-family: 'Trebuchet MS'; 
+	font-size:20px; 
+	color:white; 
+	padding-top:10%;
+	padding-left:20%;
+}
+#footer
+{
+	text-align: left; 
+	font-family: 'Trebuchet MS'; 
+	font-size:16px; 
+	color:white; 
+	padding-left:20%;
+}
+#socialimg
+{
+	margin-right:5%;
+	margin-bottom:5%;
+	float:right;
+}
+
+#table_intend
+{
+margin-left:0px;
+margin-top:40px;	
+margin-bottom:100px;
+}

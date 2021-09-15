@@ -1,0 +1,82 @@
+#container
+{
+	background-color: #f9f9f9;
+	box-shadow: 2px 2px 2px #888888;
+	font-family: "Trebuchet MS";
+	max-height:3000px;
+	margin-left:80px;
+	margin-right:80px;
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:20px;
+}
+#nav
+{
+	background-color: #f9f9f9;
+}
+#nav_btn1
+{
+	background-color:none;
+	border:none;
+	padding:10px;
+}
+#nav_btn1:hover
+{
+	transition:0.5s;
+	background-color: #e3e3e3;
+	cursor:pointer;
+}
+#que
+{
+	font-size:18px;
+	margin-bottom:0px;
+	padding-bottom:0px;
+}
+#ans
+{
+	margin-bottom:0px;
+	padding-bottom:0px;
+	width:500px;
+	padding:5px;
+}
+#score
+{
+	margin-top:0px;
+	text-align:center;
+}
+#status
+{
+	text-align:center;
+	font-size:30;
+	margin-top:0px;
+	margin-bottom:0px;
+	color:green;
+}
+#statusf
+{
+	text-align:center;
+	font-size:30;
+	margin-top:0px;
+	margin-bottom:0px;
+	color:red;
+}
+#num
+{
+	color:green;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size:30;
+	text-align:center;
+}
+#numf
+{
+	color:red;
+	margin-top:0px;
+	margin-bottom:0px;
+	font-size:30;
+	text-align:center;
+}
+#title
+{
+	text-decoration:underline;
+}

@@ -1,0 +1,66 @@
+h1{
+		text-align: left-side;
+		color: white;
+		font-family: "corbel";
+		padding : 0px;
+		margin : 0px;
+			
+}
+
+#nav {
+    list-style-type: none;
+	margin : 0px;
+    padding: 0;
+    overflow: hidden;
+	font-family: "corbel";
+	border: none;
+	background-color: #E5E7E9;
+	}
+
+
+li {
+  margin : 0px;
+  float: left;
+}
+
+#signup{
+	display: block;
+    color: black;
+    text-align: center;
+	text-decoration: none;
+	padding: 10px 12px;
+	
+}
+li #headlink
+	{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+li #headlink:hover
+{
+    background-color: #D2D2D2;
+	margin : 0px;
+	transition: 0.5s;
+}
+#signup:hover
+{
+	color: white;
+    background-color: #E74C3C;
+	margin : 0px;
+	transition: 0.5s;
+}
+
+#corner {
+    padding: 20px; 
+	margin : 0px;
+	height:30px;
+	background-image: url("header.jpg");
+	background-color: #4B4B4B;
+}
+body
+{
+	margin: 0px;
+}

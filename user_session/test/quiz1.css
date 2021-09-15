@@ -1,0 +1,152 @@
+#content{
+	border: 1px solid grey;
+	height:600px;
+	margin-left:50px;
+	margin-right:50px; 
+}
+#title
+{
+	border: 1px solid grey;
+	height:100px;
+	font-family: "calibri";
+	color:white;
+	background-color:grey;
+	background: linear-gradient(to right,      #373737  ,  #666666  ,  #969696 );
+}
+#title_text
+{
+	padding-top:10px;
+	text-align:center;
+	font-size:30px;
+	text-shadow: 1px 1px black;
+	float:left;
+	margin-left:35%;
+}
+#time
+{
+	background-color:white;
+	color:black;
+	margin-left:92%;
+	color:red;
+	box-shadow: 1px 1px 6px grey;
+}
+#que
+{
+	border: 1px solid  #13b1df;
+	background-color:  #13b1df;
+	font-family: "calibri";
+	height:200px;
+	color:white;
+	background: linear-gradient(to right,    #282ee5 ,  #2859e5  , #2893e5);
+}
+#que_text
+{
+	padding-top:40px;
+	text-align:center;
+	font-size:30px;
+	 text-shadow: 1px 1px black;
+}
+#que_img
+{
+	margin-left:70%;
+	margin-top:15px;
+	position:absolute;
+}
+#que_color
+{
+	color: yellow;
+}
+#t1,#t2,#opt_td
+{
+	border: 1px solid grey;
+	width:50%;
+	padding:10px;
+	font-family: "calibri";
+	background-color:white;
+}
+#t1
+{
+	float:left;
+	background-color:  #b0b0b0;
+}
+#t2{
+background-color:  #b0b0b0;
+}
+#btn_div
+{
+	border:none;
+	border-bottom: 1px solid grey;
+	height:50px;
+	padding-left:40%;
+	padding-top:10px;
+}
+#btn
+{
+	background-color:#34495e;
+	border:none;
+	color:white;
+	padding:5px;
+	margin-left:10px;
+	border-radius:5px;
+	background: linear-gradient(to right,    #3363e3 ,  #2255dd  );
+	cursor:pointer;
+	box-shadow: 1px 1px 2px grey;
+	transition: 0.2s;
+	float:left;
+}
+#btn:hover
+{
+	transition: 0.5s;
+	box-shadow: 1px 1px 6px black;
+}
+#end_btn
+{
+	border:none;
+	color:white;
+	padding:5px;
+	margin-left:330px;
+	border-radius:5px;
+	background: linear-gradient(to right,    #dd2222  ,   #d32c2c   );
+	cursor:pointer;
+	box-shadow: 1px 1px 2px grey;
+}
+#btn_table
+{
+	
+}
+#end_btn:hover
+{
+	transition: 0.5s;
+	box-shadow: 1px 1px 6px black;
+}
+#footer
+{
+	border:none;
+	border-bottom: 1px solid grey;
+	height:50px;
+	padding-left:5%;
+	padding-top:10px;
+	font-family: "calibri";
+}
+#num_label
+{
+	font-family: "calibri";
+	float:left;
+	color:black;
+}
+#num
+{
+	background: linear-gradient(to right,    #3363e3 ,  #2255dd  );
+	color:white;
+	padding:10px;	
+	border:none;
+	margin-left:8px;
+	border-radius:4px;
+	transition:0.2s;
+	cursor:pointer;
+}
+#num:hover
+{
+	background: linear-gradient(to right,     #1943a4  ,  #193e95 );
+	transition:0.2s;
+}
